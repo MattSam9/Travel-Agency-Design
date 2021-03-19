@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa-IR">
 
 <head>
     <meta charset="UTF-8">
@@ -29,6 +29,13 @@
     <title>Travel Agency</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <script async type="text/javascript">
+        var replaceDigits = function () {
+            var map = ["&\#1776;", "&\#1777;", "&\#1778;", "&\#1779;", "&\#1780;", "&\#1781;", "&\#1782;", "&\#1783;", "&\#1784;", "&\#1785;"]
+            document.body.innerHTML = document.body.innerHTML.replace(/\d(?=[^<>]*(<|$))/g, function ($0) { return map[$0] });
+        }
+        window.onload = replaceDigits;
+    </script>
 </head>
 
 <body>
@@ -51,6 +58,141 @@
             <input type="text" class="form-control d-fa" placeholder="جستجوی کشور یا شهر">
         </div>
     </header>
+    <section class="features">
+        <h2 class="my-h2">قیمت و پکیج‌های تور اروپا</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <div class="feature-image">
+                            <img src="img/rome.jpg" alt="destination">
+                            <div class="price">
+                                <p>150$</p>
+                            </div>
+                            <div class="rating">
+                                <i class="icon-half-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                            </div>
+                        </div>
+                        <div class="feature-details">
+                            <h3 class="my-h3 d-fa">رم</h3>
+                            <div class="feature-duration d-fa">
+                                <span><i class="icon-duration"></i>اقامت</span>
+                                <span class="feature-label">4 روز و 4 شب</span>
+                            </div>
+                            <div class="feature-date d-fa">
+                                <span><i class="icon-calender"></i>تاریخ رفت</span>
+                                <span class="feature-label">تابستان 99</span>
+                            </div>
+                            <div class="feature-hotel d-fa">
+                                <span><i class="icon-hotel"></i>درجه بندی</span>
+                                <span class="feature-label">4 ستاره</span>
+                            </div><br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <div class="feature-image">
+                            <img src="img/los-angeles.jpg" alt="destination">
+                            <div class="price">
+                                <p>100$</p>
+                            </div>
+                            <div class="rating">
+                                <i class="icon-bi-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                            </div>
+                        </div>
+                        <div class="feature-details">
+                            <h3 class="my-h3 d-fa">لس آنجلس</h3>
+                            <div class="feature-duration d-fa">
+                                <span><i class="icon-duration"></i>اقامت</span>
+                                <span class="feature-label">4 روز و 3 شب</span>
+                            </div>
+                            <div class="feature-date d-fa">
+                                <span><i class="icon-calender"></i>تاریخ رفت</span>
+                                <span class="feature-label">بهار 99</span>
+                            </div>
+                            <div class="feature-hotel d-fa">
+                                <span><i class="icon-hotel"></i>درجه بندی</span>
+                                <span class="feature-label">4 ستاره</span>
+                            </div><br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <div class="feature-image">
+                            <img src="img/paris.jpg" alt="destination">
+                            <div class="price">
+                                <p>90$</p>
+                            </div>
+                            <div class="rating">
+                                <i class="icon-bi-star"></i>
+                                <i class="icon-half-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                            </div>
+                        </div>
+                        <div class="feature-details">
+                            <h3 class="my-h3 d-fa">پاریس</h3>
+                            <div class="feature-duration d-fa">
+                                <span><i class="icon-duration"></i>اقامت</span>
+                                <span class="feature-label">3 روز و 3 شب</span>
+                            </div>
+                            <div class="feature-date d-fa">
+                                <span><i class="icon-calender"></i>تاریخ رفت</span>
+                                <span class="feature-label">پاییز 99</span>
+                            </div>
+                            <div class="feature-hotel d-fa">
+                                <span><i class="icon-hotel"></i>درجه بندی</span>
+                                <span class="feature-label">4 ستاره</span>
+                            </div><br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-box">
+                        <div class="feature-image">
+                            <img src="img/zurich.jpg" alt="destination">
+                            <div class="price">
+                                <p>200$</p>
+                            </div>
+                            <div class="rating">
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                            </div>
+                        </div>
+                        <div class="feature-details">
+                            <h3 class="my-h3 d-fa">زوریخ</h3>
+                            <div class="feature-duration d-fa">
+                                <span><i class="icon-duration"></i>اقامت</span>
+                                <span class="feature-label">4 روز و 5 شب</span>
+                            </div>
+                            <div class="feature-date d-fa">
+                                <span><i class="icon-calender"></i>تاریخ رفت</span>
+                                <span class="feature-label">زمستان 99</span>
+                            </div>
+                            <div class="feature-hotel d-fa">
+                                <span><i class="icon-hotel"></i>درجه بندی</span>
+                                <span class="feature-label">5 ستاره</span>
+                            </div><br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
