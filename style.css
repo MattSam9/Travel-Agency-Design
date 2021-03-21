@@ -114,9 +114,10 @@ body {
       rgb(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(img/frank-mckenna.jpg);
+    url(img/banner\ 1.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   text-align: center;
   color: #c3f5f8;
 }
@@ -304,8 +305,41 @@ body {
   -o-border-radius: 1rem;
 }
 /* ~/ feature section  */
+
+/* * banner section */
+.banner {
+  height: 90vh;
+  background-image: url(img/banner\ 2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 32vh;
+}
+.banner-highlight {
+  padding: 3rem 0;
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+}
+.banner-highlight .container .row {
+  flex-direction: row-reverse;
+}
+.banner-highlight .container .row div{
+  justify-content: center;
+}
+.banner-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+/* ~* banner section */
+
 /* ? gallery section */
 
 
 
 /* ~? gallery section */
+
+
+/* @ Media Query */
+
+/* ~@ Media Query */
