@@ -31,7 +31,7 @@
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <script async type="text/javascript">
         var replaceDigits = function () {
-            var map = ["&\#1776;", "&\#1777;", "&\#1778;", "&\#1779;", "&\#1780;", "&\#1781;", "&\#1782;", "&\#1783;", "&\#1784;", "&\#1785;"]
+            var map = ["&\#1776;", "&\#1777;", "&\#1778;", "&\#1779;", "&\#1780;", "&\#1781;", "&\#1782;", "&\#1783;", "&\#1784;", "&\#1785;"];
             document.body.innerHTML = document.body.innerHTML.replace(/\d(?=[^<>]*(<|$))/g, function ($0) { return map[$0] });
         }
         window.onload = replaceDigits;
@@ -103,7 +103,7 @@
                         <div class="feature-image">
                             <img src="img/los-angeles.jpg" alt="destination">
                             <div class="price">
-                                <p>100$</p>
+                                <p>600$</p>
                             </div>
                             <div class="rating">
                                 <i class="icon-bi-star"></i>
@@ -135,7 +135,7 @@
                         <div class="feature-image">
                             <img src="img/paris.jpg" alt="destination">
                             <div class="price">
-                                <p>90$</p>
+                                <p>390$</p>
                             </div>
                             <div class="rating">
                                 <i class="icon-half-star"></i>
@@ -330,8 +330,35 @@
         </div>
     </section>
     <!-- ~! feature section -->
+
+    <!-- // banner section -->
+    <section class="banner">
+        <div class="banner-highlight">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 banner-text">
+                        <h2 class="my-h2 d-fa">30 درصد  تخفیف بگیرید!</h2>
+                        <p class="my-p d-fa">با رزور بلیت هواپیما تا قبل از آغاز سال جدید می‌توانید 30 درصد تخفیف واقعی بگیرید!</p>
+                    </div>
+                    <div class="col-md-4 banner-btn">
+                        <button type="button" class="common-btn">رزرو کنید</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ~// banner section -->
+
     <!-- ? gallery section -->
-    
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </section>
     
     <!-- ~? gallery section -->
 </body>
